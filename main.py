@@ -33,7 +33,7 @@ def main():
     application.add_handler(CommandHandler("about", about_cmd))
     application.add_handler(CommandHandler("stats", stats_cmd))
     application.add_handler(CommandHandler("broadcast", broadcast_cmd))
-    # application.add_handler(CommandHandler("ban", ban_cmd))  # ❌ hata diya
+    
 
     # Chat with AI on every text
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, chat_with_ai))
