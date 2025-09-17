@@ -9,7 +9,6 @@ from telegram.ext import (
 from handlers import (
     start,
     help_cmd,
-    about_cmd,
     stats_cmd,
     broadcast_cmd,
     chat_with_ai
