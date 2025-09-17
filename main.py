@@ -30,7 +30,7 @@ def main():
     # Commands
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_cmd))
-    application.add_handler(CommandHandler("about", about_cmd))
+
     application.add_handler(CommandHandler("stats", stats_cmd))
     application.add_handler(CommandHandler("broadcast", broadcast_cmd))
     
